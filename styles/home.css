@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.6rem;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#wrapper #wrapper-header {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#wrapper #wrapper-header .contents-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#wrapper #wrapper-header .contents-title .title {
+  color: #55b2e4;
+  font: bold 1.4rem/1 "arial";
+}
+#wrapper #wrapper-header .contents-title .subtitle {
+  font: normal 1.4rem/1 "arial";
+}
+#wrapper #wrapper-header .header-line {
+  width: 100%;
+  border-top: 1px solid #808080;
+  margin: 4px 0;
+}
+#wrapper #wrapper-body {
+  width: 100%;
+  height: 270px;
+}
+#wrapper #wrapper-body .contents-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#wrapper #wrapper-body .contents-title .title {
+  color: #55b2e4;
+  font: bold 1.4rem/1 "arial";
+}
+#wrapper #wrapper-body .contents-title .subtitle {
+  font: normal 1.4rem/1 "arial";
+}
+#wrapper #wrapper-body .header-line {
+  width: 100%;
+  border-top: 1px solid #808080;
+  margin: 4px 0;
+}
+#wrapper #wrapper-body .video {
+  width: 100%;
+  height: 240px;
+  background: url("https://i.pinimg.com/474x/24/20/5c/24205c4aa513987e55cac4169ce54dea.jpg") center/contain no-repeat;
+}
